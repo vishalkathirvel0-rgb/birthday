@@ -18,17 +18,17 @@ button.addEventListener("click", function () {
 
     // Show the seed
     setTimeout(function () {
-        plant.innerHTML = "🌱";
+        plant.innerHTML = "YOU";
     }, 1000);
 
     // Grow into a small plant
     setTimeout(function () {
-        plant.innerHTML = "🌿";
+        plant.innerHTML = "AND ME";
     }, 2500);
 
     // Grow into a tree
     setTimeout(function () {
-        plant.innerHTML = "🌳";
+        plant.innerHTML = "FOREVER";
     }, 4500);
 setTimeout(function(){
 
