@@ -18,7 +18,7 @@ button.addEventListener("click", function () {
 
     // Show the seed
     setTimeout(function () {
-        plant.innerHTML = "YOU";
+        plant.innerHTML = "YOU🫵";
     }, 1000);
 
     // Grow into a small plant
@@ -28,24 +28,24 @@ button.addEventListener("click", function () {
 
     // Grow into a tree
     setTimeout(function () {
-        plant.innerHTML = "FOREVER";
+        plant.innerHTML = "FOREVER💙";
     }, 4500);
 setTimeout(function(){
 
     plant.innerHTML = `
-        🌳
+        🥰
         <br><br>
         <h2>Happiest Birthday MINE 💙</h2>
 
         <p>
         May your life bloom like these flowers 🌸<br>
         Keep smiling, keep shining,<br>
-        and never stop being the amazing person you are.
+        and Na unna nalla pathukuren.
         AND YOU ARE MINE FOREVER 💙
         </p>
     `;
 
-    for(let i = 0; i < 50; i++){
+    for(let i = 0; i < 200; i++){
 
         setTimeout(createFlower, i*150);
 
@@ -66,7 +66,7 @@ setTimeout(function(){
     flower.style.left = Math.random()*100 + "vw";
 
     flower.style.animationDuration =
-        (Math.random()*3 + 4) + "s";
+        (Math.random()*4 + 5) + "s";
 
     flower.style.fontSize =
         (Math.random()*20 + 20) + "px";
